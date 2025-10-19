@@ -1,4 +1,4 @@
-package com.evgeniy.spring;
+package com.evgeniy.aston;
 
 import java.util.LinkedList;
 
