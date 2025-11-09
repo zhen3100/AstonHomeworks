@@ -1,0 +1,204 @@
+2025-10-25 02:18:09.601 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-10-25 02:18:09.792 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-25 02:18:09.885 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-10-25 02:18:09.887 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-10-25 02:18:09.887 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/hibernate_db]
+2025-10-25 02:18:09.887 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=postgres, password=****}
+2025-10-25 02:18:09.888 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-10-25 02:18:09.889 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-10-25 02:18:10.039 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-25 02:18:11.089 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen3100@gmail.com: true
+2025-10-25 02:19:12.704 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-10-25 02:19:12.889 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-25 02:19:12.979 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-10-25 02:19:12.982 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-10-25 02:19:12.982 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/hibernate_db]
+2025-10-25 02:19:12.983 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=postgres, password=****}
+2025-10-25 02:19:12.983 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-10-25 02:19:12.985 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-10-25 02:19:13.133 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-25 02:19:14.189 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen3100@gmail.com: true
+2025-10-25 02:19:38.793 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-10-25 02:19:38.986 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-25 02:19:39.075 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-10-25 02:19:39.078 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-10-25 02:19:39.078 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/hibernate_db]
+2025-10-25 02:19:39.078 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=postgres, password=****}
+2025-10-25 02:19:39.078 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-10-25 02:19:39.080 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-10-25 02:19:39.228 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-25 02:19:40.260 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen3100@gmail.com: true
+2025-10-25 02:20:28.882 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-10-25 02:20:29.076 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-25 02:20:29.166 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-10-25 02:20:29.168 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2025-10-25 02:20:29.168 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/hibernate_db]
+2025-10-25 02:20:29.168 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=postgres, password=****}
+2025-10-25 02:20:29.168 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2025-10-25 02:20:29.170 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+2025-10-25 02:20:29.319 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-25 02:20:30.370 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen3100@gmail.com: true
+2025-10-25 02:22:13.201 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen3100@gmail.com: true
+2025-10-25 02:23:28.654 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen3100@gmail.com: true
+2025-10-26 01:36:00.790 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:36:15.262 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Creating new user: zhen00@bk.ru
+2025-10-26 01:36:16.819 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User saved successfully: User{id=3, name='Evgeniy', email='zhen00@bk.ru', age=21, createdAt=2025-10-26T01:36:16.795333}
+2025-10-26 01:38:17.472 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:38:57.079 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:39:00.982 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving user by id: 2
+2025-10-26 01:39:26.535 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving user by id: 1
+2025-10-26 01:43:14.419 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:43:35.584 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Updating user: 2
+2025-10-26 01:47:54.791 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:48:10.786 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Updating user: 2
+2025-10-26 01:48:12.017 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by id 2: true
+2025-10-26 01:48:12.382 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User update successfully: User{id=2, name='Elena', email='123@mail.ru', age=32, createdAt=2025-10-24T00:00}
+2025-10-26 01:48:53.977 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:49:00.604 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving user by id: 2
+2025-10-26 01:49:01.841 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by id 2: true
+2025-10-26 01:51:13.540 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:51:23.810 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Creating new user: 124@mail.ru
+2025-10-26 01:51:25.403 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User saved successfully: User{id=4, name='Elena', email='124@mail.ru', age=30, createdAt=2025-10-26T01:51:25.360186}
+2025-10-26 01:53:22.797 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 01:53:27.669 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving all users
+2025-10-26 02:01:25.102 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 02:01:43.271 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving all users
+2025-10-26 02:01:51.133 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving all users
+2025-10-26 02:02:15.304 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving all users
+2025-10-26 02:02:18.263 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving all users
+2025-10-26 02:10:23.541 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 02:10:25.048 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving all users
+2025-10-26 02:13:03.501 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 02:13:09.630 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving user by id: 2
+2025-10-26 02:13:10.874 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by id 2: true
+2025-10-26 02:13:10.875 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Deleting user by id: 2
+2025-10-26 02:13:10.879 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User deleted successfully by id: 2
+2025-10-26 02:16:33.216 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 02:16:50.419 [main] INFO  com.evgeniy.aston.Main - Starting User Service Application
+2025-10-26 02:17:01.483 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Retrieving user by email: zhen00@bk.ru
+2025-10-26 02:17:02.962 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - User found by email zhen00@bk.ru: true
+2025-10-26 21:32:41.391 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:32:58.029 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Создание нового пользователя: yasmin@mail.ru
+2025-10-26 21:32:59.634 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь успешно сохранен: User{id=5, name='Ясмин', email='yasmin@mail.ru', age=25, createdAt=2025-10-26T21:32:59.573595}
+2025-10-26 21:34:28.189 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:34:28.467 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:34:32.587 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:34:41.060 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 3: true
+2025-10-26 21:34:41.060 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по id: 3
+2025-10-26 21:50:59.615 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:52:29.172 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:53:38.513 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:53:41.403 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 21:54:00.776 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 2: false
+2025-10-26 21:54:04.354 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 3: true
+2025-10-26 21:54:04.354 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по id: 3
+2025-10-26 21:54:46.364 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 21:54:53.129 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 3: true
+2025-10-26 21:54:53.130 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по id: 3
+2025-10-26 21:54:58.959 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 21:55:24.533 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Обновление пользователя: 2
+2025-10-26 21:55:24.535 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 2: false
+2025-10-26 21:55:38.964 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 3: true
+2025-10-26 21:55:38.964 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по id: 3
+2025-10-26 21:55:38.964 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Удаление пользователя по id: 3
+2025-10-26 21:55:38.971 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь успешно удален по id: 3
+2025-10-26 22:05:06.486 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 22:05:14.449 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по email zhen00@bk.ru: false
+2025-10-26 22:05:30.069 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по email 124@mail.ru: true
+2025-10-26 22:05:30.069 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по email: 124@mail.ru
+2025-10-26 22:05:30.069 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Удаление пользователя по email: 124@mail.ru
+2025-10-26 22:06:02.246 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 22:06:12.310 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 5: true
+2025-10-26 22:06:12.310 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по id: 5
+2025-10-26 22:06:12.310 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Удаление пользователя по id: 5
+2025-10-26 22:06:12.315 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь успешно удален по id: 5
+2025-10-26 22:06:19.475 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 22:06:30.108 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по email 124@mail.ru: true
+2025-10-26 22:06:30.108 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по email: 124@mail.ru
+2025-10-26 22:06:30.108 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Удаление пользователя по email: 124@mail.ru
+2025-10-26 22:08:09.821 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 22:08:23.240 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по email zhen3100@gmail.com: true
+2025-10-26 22:08:23.241 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по email: zhen3100@gmail.com
+2025-10-26 22:08:23.241 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Удаление пользователя по email: zhen3100@gmail.com
+2025-10-26 22:13:16.956 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 22:13:26.729 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по email 124@mail.ru: true
+2025-10-26 22:13:26.729 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по email: 124@mail.ru
+2025-10-26 22:13:26.729 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Удаление пользователя по email: 124@mail.ru
+2025-10-26 22:13:26.746 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Удаление пользователя по email: 124@mail.ru
+2025-10-26 22:14:03.047 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Обновление пользователя: 0
+2025-10-26 22:14:03.051 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 0: true
+2025-10-26 22:14:03.138 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь успешно обновлен: User{id=0, name='Elena', email='124@mail.ru', age=35, createdAt=2022-12-31T00:00}
+2025-10-26 22:14:35.920 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по email 124@mail.ru: true
+2025-10-26 22:14:35.920 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по email: 124@mail.ru
+2025-10-26 22:14:41.150 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 0: true
+2025-10-26 22:14:41.151 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение пользователя по id: 0
+2025-10-26 22:15:00.604 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Создание нового пользователя: zhen3100@gmail.com
+2025-10-26 22:15:00.617 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь успешно сохранен: User{id=6, name='Evgeniy', email='zhen3100@gmail.com', age=35, createdAt=2025-10-26T22:15:00.609433}
+2025-10-26 22:15:14.004 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 22:16:07.626 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Создание нового пользователя: 125@mail.ru
+2025-10-26 22:16:07.631 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь успешно сохранен: User{id=7, name='Evgeniy', email='125@mail.ru', age=4, createdAt=2025-10-26T22:16:07.628932}
+2025-10-26 22:16:19.234 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 22:21:45.927 [main] INFO  com.evgeniy.aston.Main - Запуск приложения
+2025-10-26 22:21:52.477 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 22:22:02.524 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 22:22:09.269 [main] INFO  com.evgeniy.aston.dao.UserDaoImpl - Пользователь найден по id 324342: false
+2025-10-26 22:23:28.393 [main] INFO  com.evgeniy.aston.service.UserServiceImpl - Получение всех пользователей
+2025-10-26 22:23:28.397 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - An I/O error occurred while sending to the backend.
+2025-10-26 22:23:28.401 [main] ERROR com.evgeniy.aston.dao.UserDaoImpl - Ошибка поиска всех пользователей
+org.hibernate.exception.JDBCConnectionException: JDBC exception executing SQL [select u1_0.id,u1_0.age,u1_0.created_at,u1_0.email,u1_0.name from users u1_0] [An I/O error occurred while sending to the backend.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:264) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:167) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.advanceNext(JdbcValuesResultSetImpl.java:265) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.JdbcValuesResultSetImpl.processNext(JdbcValuesResultSetImpl.java:145) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.jdbc.internal.AbstractJdbcValues.next(AbstractJdbcValues.java:19) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.internal.RowProcessingStateStandardImpl.next(RowProcessingStateStandardImpl.java:67) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:204) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.results.spi.ListResultsConsumer.consume(ListResultsConsumer.java:33) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:211) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:83) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:76) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:65) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.lambda$new$2(ConcreteSqmSelectQueryPlan.java:139) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:382) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:302) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:526) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:423) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:120) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at com.evgeniy.aston.dao.UserDaoImpl.findAll(UserDaoImpl.java:132) [classes/:?]
+	at com.evgeniy.aston.service.UserServiceImpl.getAllUsers(UserServiceImpl.java:117) [classes/:?]
+	at com.evgeniy.aston.Main.getAllUsers(Main.java:122) [classes/:?]
+	at com.evgeniy.aston.Main.main(Main.java:45) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: An I/O error occurred while sending to the backend.
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:399) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 21 more
+Caused by: java.net.SocketException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819) ~[?:?]
+	at java.base/java.net.Socket$SocketOutputStream.implWrite(Socket.java:1231) ~[?:?]
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1218) ~[?:?]
+	at org.postgresql.util.internal.PgBufferedOutputStream.flushBuffer(PgBufferedOutputStream.java:41) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.util.internal.PgBufferedOutputStream.flush(PgBufferedOutputStream.java:48) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.PGStream.flush(PGStream.java:708) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.sendSimpleQuery(QueryExecutorImpl.java:2063) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.sendOneQuery(QueryExecutorImpl.java:1944) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.sendQueryPreamble(QueryExecutorImpl.java:624) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:362) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:525) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:139) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:246) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	... 21 more
