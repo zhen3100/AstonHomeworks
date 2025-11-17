@@ -3,10 +3,9 @@ package com.evgeniy.spring.springapplication.service;
 import com.evgeniy.spring.springapplication.DTO.CreateUserRequest;
 import com.evgeniy.spring.springapplication.DTO.UpdateUserRequest;
 import com.evgeniy.spring.springapplication.DTO.UserResponse;
-import com.evgeniy.spring.springapplication.entity.User;
+import com.evgeniy.spring.springapplication.entity.UserEntity;
 import com.evgeniy.spring.springapplication.repository.UserRepository;
 import jakarta.transaction.Transactional;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,28 +32,28 @@ public class UserServiceImpl implements UserService {
             throw new IllegalArgumentException("Пользователь с email " + request.getEmail() + " уже существует");
         }
 
-        User user = new User(request.getName(), request.getEmail(), request.getAge());
-        User savedUser = userRepository.save(user);
+        UserEntity userEntity = new UserEntity(request.getName(), request.getEmail(), request.getAge());
+        UserEntity savedUserEntity = userRepository.save(userEntity);
 
         kafkaProducerService.sendUserCreatedEvent(
-                savedUser.getEmail(),
-                savedUser.getName(),
-                savedUser.getId()
+                savedUserEntity.getEmail(),
+                savedUserEntity.getName(),
+                savedUserEntity.getId()
         );
 
-        return convertToResponse(savedUser);
+        return convertToResponse(savedUserEntity);
     }
 
     @Override
     public UserResponse getUserById(Long id) {
-        User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Пользователь с id: " + id + " не найден"));
-        return convertToResponse(user);
+        UserEntity userEntity = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Пользователь с id: " + id + " не найден"));
+        return convertToResponse(userEntity);
     }
 
     @Override
     public UserResponse getUserByEmail(String email) {
-        User user = userRepository.findByEmail(email).orElseThrow(() -> new IllegalArgumentException("Пользователь с email: " + email + " не найден"));
-        return convertToResponse(user);
+        UserEntity userEntity = userRepository.findByEmail(email).orElseThrow(() -> new IllegalArgumentException("Пользователь с email: " + email + " не найден"));
+        return convertToResponse(userEntity);
     }
 
     @Override
@@ -66,26 +65,26 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserResponse updateUser(Long id, UpdateUserRequest request) {
-        User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Пользователь с id: " + id + " не найден"));
+        UserEntity userEntity = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Пользователь с id: " + id + " не найден"));
 
         // Проверяем, не используется ли email другим пользователем
-        if (!user.getEmail().equals(request.getEmail()) && userRepository.existsByEmail(request.getEmail())) {
+        if (!userEntity.getEmail().equals(request.getEmail()) && userRepository.existsByEmail(request.getEmail())) {
             throw new IllegalArgumentException("Email " + request.getEmail() + " уже используется другим пользователем");
         }
 
-        user.setName(request.getName());
-        user.setEmail(request.getEmail());
-        user.setAge(request.getAge());
-        User updatedUser = userRepository.save(user);
-        return convertToResponse(updatedUser);
+        userEntity.setName(request.getName());
+        userEntity.setEmail(request.getEmail());
+        userEntity.setAge(request.getAge());
+        UserEntity updatedUserEntity = userRepository.save(userEntity);
+        return convertToResponse(updatedUserEntity);
     }
 
     @Override
     public void deleteUserById(Long id) {
-        User user = userRepository.findById(id)
+        UserEntity userEntity = userRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Пользователь не найден с таким id:" + id));
-        String email = user.getEmail();
-        String name = user.getName();
+        String email = userEntity.getEmail();
+        String name = userEntity.getName();
 
         userRepository.deleteById(id);
         kafkaProducerService.sendUserDeletedEvent(email, name, id);
@@ -93,23 +92,23 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteUserByEmail(String email) {
-        User user = userRepository.findByEmail(email)
+        UserEntity userEntity = userRepository.findByEmail(email)
                 .orElseThrow(() -> new IllegalArgumentException("Пользователь не найден с таким email: " + email));
 
-        Long id = user.getId();
-        String name = user.getName();
-        userRepository.delete(user);
+        Long id = userEntity.getId();
+        String name = userEntity.getName();
+        userRepository.delete(userEntity);
 
         kafkaProducerService.sendUserDeletedEvent(email, name, id);
     }
 
-    private UserResponse convertToResponse(User user) {
+    private UserResponse convertToResponse(UserEntity userEntity) {
         return new UserResponse(
-                user.getId(),
-                user.getName(),
-                user.getEmail(),
-                user.getAge(),
-                user.getCreatedAt()
+                userEntity.getId(),
+                userEntity.getName(),
+                userEntity.getEmail(),
+                userEntity.getAge(),
+                userEntity.getCreatedAt()
         );
     }
 }

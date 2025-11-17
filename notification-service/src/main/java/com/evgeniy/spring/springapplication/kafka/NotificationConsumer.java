@@ -8,16 +8,29 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
 
+/**
+ * Consumer для обработки событий пользователя из Kafka
+ * получает события о создании и удалении пользователей и отправляет соответствующие email уведомления
+ */
 @Log4j2
 @Component
 @RequiredArgsConstructor
 public class NotificationConsumer {
 
+    /**
+     * Сервис для отправки электронных писем
+     */
     private final EmailService emailService;
 
+    /**
+     * Обрабатывает события пользователя из топика Kafka "user-events"
+     * В зависимости от типа действия (CREATED/DELETED) отправляет соответствующее email уведомление
+     *
+     * @param event событие пользователя, содержащее email и тип действия
+     * @throws RuntimeException если произошла ошибка при отправке email
+     */
     @KafkaListener(topics = "user-events")
     public void consumeUserEvent(UserEvent event) {
-
         String subject;
         String message;
 
