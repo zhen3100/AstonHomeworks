@@ -39,4 +39,4 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=90s --retries=3 \
   CMD wget --quiet --tries=1 --spider http://localhost:8082/actuator/health || exit 1
 
 # Запускаем приложение
-ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]
+ENTRYPOINT ["java", "org.springframework.boot.loader.launch.JarLauncher"]
